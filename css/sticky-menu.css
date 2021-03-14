@@ -69,7 +69,6 @@ body {
 ul.list-group{
     display: flex;
     flex-direction: row;
-    justify-content: center;
 
 }
 li.list-group-item{
