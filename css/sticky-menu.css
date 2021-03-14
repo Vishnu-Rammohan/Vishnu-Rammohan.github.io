@@ -79,7 +79,6 @@ li.list-group-item{
 }
 .row-portfolio{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
 }
 @media(min-width:767px) {
