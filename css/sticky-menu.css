@@ -52,13 +52,14 @@ section{
 }
 h1.display-1,.jumbotron,h2.display-2{
     font-family: 'Fascinate', cursive;
+    font-size: larger;
     text-align: center;
 
 }
 
 p.lead, h4{
     font-family: 'Inconsolata', monospace;
-    font-size: x-large;
+    font-size: large;
 }
 
 ul.list-group{
