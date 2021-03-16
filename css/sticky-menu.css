@@ -90,18 +90,6 @@ li.list-group-item{
     flex-direction: row;
     justify-content: center;
 }
-@media(min-width: 576px){
-    ul.list-group{
-        flex-wrap: wrap;
-    }
-}
-@media(min-width:1200px) {
-    #socialmedia{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-}
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
