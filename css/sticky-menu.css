@@ -9,10 +9,13 @@ html {
 
 }
 body {
+    background: rgb(239,222,205);
+    background: linear-gradient(90deg, rgba(239,222,205,1) 0%, rgba(41,37,34,1) 83%);
     width: 100%;
     height: 100%;
 }
 section{
+    height: fit-content;
     flex-direction: row;
     padding: 5%;
     display: flex;
@@ -85,7 +88,12 @@ li.list-group-item{
 #socialmedia{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+@media(min-width: 576px){
+    ul.list-group{
+        flex-wrap: wrap;
+    }
 }
 @media(min-width:1200px) {
     #socialmedia{
@@ -143,6 +151,7 @@ li.list-group-item{
     background: #EFDECD;
 }
 .portfolio-section {
+    disp
     height: 100%;
     padding-top: 20px;
     text-align: center;
