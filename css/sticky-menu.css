@@ -29,12 +29,15 @@ section{
     
 
 }
+p.card-text{
+    text-align: justify;
+
+}
 .card-port-1{
     width: 200px;
     height: 300px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
     border-radius: 15%;
 }
 .card-port-2{
@@ -42,7 +45,6 @@ section{
     height: 300px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
     border-radius: 15%;
 }
 
