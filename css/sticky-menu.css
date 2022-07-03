@@ -1,20 +1,21 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 html {
-    width: 100%;
+
     height: fit-content;
-    
+
 
 }
+
 body {
-    background: rgb(239,222,205);
-    background: linear-gradient(90deg, rgba(239,222,205,1) 0%, rgba(41,37,34,1) 83%);
+    background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg");
     width: 100%;
     height: 100%;
 }
-section{
+
+section {
     height: fit-content;
     flex-direction: row;
     padding: 5%;
@@ -26,22 +27,17 @@ section{
     height: fit-content;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    
+
 
 }
-p.card-text{
-    text-align: justify;
+
+p.card-text {
+    text-align: center;
     font-size: small;
 
 }
-.card-port-1{
-    width: 200px;
-    height: 300px;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 15%;
-}
-.card-port-2{
+
+.card-port-1 {
     width: 200px;
     height: 300px;
     padding: 20px;
@@ -49,61 +45,93 @@ p.card-text{
     border-radius: 15%;
 }
 
-.jumbotron{
-    background-color: white;
-    
+.card-port-2 {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15%;
 }
-h1.display-1,.jumbotron,h2.display-2{
+
+.jumbotron {
+    background-color: white;
+
+}
+
+h1.display-1,
+.jumbotron,
+h2.display-2 {
     font-family: 'Fascinate', cursive;
     text-align: center;
 
 }
 
-p.lead, h4{
+p.lead,
+h4 {
     font-family: 'Inconsolata', monospace;
     font-size: x-large;
 }
 
-ul.list-group{
+ul.list-group {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 
 }
-li.list-group-item{
+
+li.list-group-item {
     height: auto;
     background: #EFDECD;
     border: none;
-    
+
 }
-.row-portfolio{
+
+@media screen(min-width: 400px) {
+    .row-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+    }
+}
+
+.row-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 
 }
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 
-}
-#socialmedia{
+#socialmedia {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
+
     .top-nav-collapse {
         padding: 0;
     }
 }
+
 #back2Top {
     width: 40px;
     line-height: 40px;
@@ -125,48 +153,60 @@ li.list-group-item{
     font-size: 30px;
     text-decoration: none;
 }
+
 #back2Top:hover {
     background-color: #337AB7;
     color: #FFF;
 }
+
 .welcome-section {
-    height: 100%%;
-    padding-top: 20px;
+    height: 100%;
+    width: 85%;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
 }
+
 .about-section {
     height: 100%;
+    width: 85%;
     padding-top: 50px;
     text-align: center;
     background: #EFDECD;
 }
+
 .portfolio-section {
     height: 100%;
+    width: 85%;
     padding-top: 20px;
     text-align: center;
     background: #fff;
 }
+
 .contact-section {
     height: 100%;
+    width: 85%;
     padding-top: 20px;
     text-align: center;
     background: #EFDECD;
 }
-.navbar-default .navbar-nav > li > a:hover {
-	color: #333;
-	background-color: #F0F0F0;
+
+.navbar-default .navbar-nav>li>a:hover {
+    opacity: 1;
+    color: #333;
+    background-color: #F0F0F0;
 }
+
 .navbar-default {
+    opacity: .9;
     font-family: 'Recursive', sans-serif;
     background: #EFDECD;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 
 }
-.navbar-default .navbar-nav > li > a {
+
+.navbar-default .navbar-nav>li>a {
+    opacity: 1;
     color: #000;
 }
-
-
-
